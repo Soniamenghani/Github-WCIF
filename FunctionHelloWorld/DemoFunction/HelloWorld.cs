@@ -6,11 +6,11 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Azure.WebJobs.Host;
 
-namespace FunctionHelloWorld
+namespace DemoFunction
 {
-    public static class Function1
+    public static class HelloWorld
     {
-        [FunctionName("Function1")]
+        [FunctionName("HelloWorld")]
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequestMessage req, TraceWriter log)
         {
             log.Info("C# HTTP trigger function processed a request.");
@@ -28,7 +28,7 @@ namespace FunctionHelloWorld
 
             return name == null
                 ? req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body")
-                : req.CreateResponse(HttpStatusCode.OK, "Hello   " + name);
+                : req.CreateResponse(HttpStatusCode.OK, "Hello " + name);
         }
     }
 }

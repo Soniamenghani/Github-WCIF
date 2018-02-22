@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionHelloWorld", "FunctionHelloWorld\FunctionHelloWorld.csproj", "{087EA750-1BBB-4732-9499-0534F5668CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionHelloWorld", "FunctionHelloWorld\FunctionHelloWorld.csproj", "{087EA750-1BBB-4732-9499-0534F5668CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFunction", "DemoFunction\DemoFunction.csproj", "{CD554C7B-3903-4D46-9E18-22B822EEED92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{087EA750-1BBB-4732-9499-0534F5668CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087EA750-1BBB-4732-9499-0534F5668CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087EA750-1BBB-4732-9499-0534F5668CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD554C7B-3903-4D46-9E18-22B822EEED92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD554C7B-3903-4D46-9E18-22B822EEED92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD554C7B-3903-4D46-9E18-22B822EEED92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD554C7B-3903-4D46-9E18-22B822EEED92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
